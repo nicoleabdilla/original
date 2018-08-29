@@ -1,40 +1,237 @@
 <!DOCTYPE html>
 <html>
-<head>
-<style>
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: black;
-}
+  <head>
+    <title>Go Back Packing</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-li {
-    float: left;
-}
+    <style>
+      .navbar {
+      overflow: hidden;
+      background-color: #8826dd;
+      font-family: Arial, Helvetica, sans-serif;
+              }
 
-li a {
-    display: block;
-    color: white;
+      .navbar a {
+      float: left;
+      font-size: 16px;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+                  }
+
+      .dropdown {
+      float: left;
+      overflow: hidden;
+                 }
+
+      .dropdown .dropbtn {
+      font-size: 16px;
+      border: none;
+      outline: none;
+      color: white;
+      padding: 14px 16px;
+      background-color: inherit;
+      font-family: inherit;
+      margin: 0;
+                          }
+
+      .navbar a:hover, .dropdown:hover .dropbtn {
+      background-color:lightblue;
+                                                }
+
+      .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+                        }
+
+      .dropdown-content a {
+      float: none;
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+      text-align: left;
+                            }
+
+      .dropdown-content a:hover {
+      background-color: #purple;
+                                }
+
+      .dropdown:hover .dropdown-content {
+      display: block;
+                                        }
+
+ <type="text/css" media="screen">
+  div {
+    margin: 30px;
+    padding: 30px;
+    border: 1px solid #d7a0e1;
+    font-size: small;
+      }
+
+  #divID {
+    line-height: 1.5em;
+    text-align: justify;
+          }
+
+  #divID h1 {
+    letter-spacing: 4px;
+    font-style: italic;
     text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
+            }
 
-li a:hover {
-    background-color: #111;
-}
-</style>
-</head>
-<body>
+  #divID .drop {
+    float: left;
+      font-size: 400%;
+      line-height: 1em;
+      margin: 4px 10px 10px 0;
+      padding: 4px 10px;
+      border: 2px solid #ccc;
+      background: #eee;
+                }
 
-<ul>
-  <li><a href="#about">About</a></li>
-</ul>
 
-      <h2><centre>WEBSITE NAME</centre></h2>
-      <p>Made by Nicole and Maya</p>
+                .footer {
+                   position: fixed;
+                   left: 0;
+                   bottom: 0;
+                   width: 100%;
+                   background-color: #8826dd;
+                   color: white;
+                   text-align: center;
+                }
+
+    </style>
+  </head>
+ <body style="background-color:powderblue;">
+
+    <div id="divID">
+      <link rel="stylesheet" href="styles">
+      <center><img src="./logo.png" alt="Logo"> </center>
+       <h1>Go Back Packing</h1>
+
+          <p><span class="drop">T</span> Travelling enriches our minds and spirits and refreshes our moral values.
+          You may find many places that may give you the best experience or fulfill many of your desires.
+          If your mind is looking for historical sites, cultural events and entertainment,
+          European and Asia cities will help you feel them.
+          It may be the reason why many of the most visited cities in the world are in the two regions.
+          These cities have interesting sites, excellent restaurants, and large shopping centers.
+          Do not forget that they have many skyscrapers that give a good sky view.
+          According to various research, there are numerous factors which attracts massive visitors to these cities.
+          From business, tourism to political reasons.
+          The list below discusses the top 15 most visited cities in the world and also the reasons they are popular.
+        </p>
+
+
+
+</div>
+
+
+
+  <div class="navbar">
+    <a href="#home">Home</a>
+    <a href="#news">About Us</a>
+    <div class="dropdown">
+      <button class="dropbtn">Travel
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="#">Europe</a>
+        <a href="#">Asia</a>
+        <a href="#">Africa</a>
+        <a href="#">Australia</a>
+        <a href="#">America</a>
+        <a href="#">Antarctica</a>
+
+      </div>
+    </div>
+  </div>
+
+
+  <div>
+    <h2><center>1. London, England</center></h2>
+    <center><img src="./londonheader.png" alt="london"></center>
+    <p>Although it has astronomical living costs, the city is the most popular destination for many travelers.
+      It has the best theater scene in the whole world. It attracts the best thespians.
+      It’s not a surprise to see some o your favorite actors hitting a London stage.
+      Classic plays, musicals, and poetry flourish in this city.
+      One advantage of London’s galleries and museums is that most of them are free.
+      If you browse their collections, the charges are almost free. Where else in the world can one meet creepy crawlies,
+      Battle of Britain and Darwin’s Walking Stick without spending some cash.</p>
+
+      <p>It’s one of the reasons why many people love London. It is a home to various Premier League clubs such as Tottenham Hotspurs,
+         Arsenal, and Chelsea. Since Premier League is the most-watched soccer league in the world, many people travel at least
+         once in a year to watch a live match of their favorite club.</p>
+
+      <h2><center>2. Bangkok, Thailand</center></h2>
+      <center><img src="./thai.png" alt="thai"></center>
+      <p>With more than 18 million foreign visitors in 2015, it is the second most visited city in the world.
+         Its popularity increased with the release of the chines movie Lost in Thailand.
+         It has dynamic shopping centers and nightlife. It has acquired the name ‘The Sin City of Asia’ as it
+         offers sex tourism. Other visitors come to see the city cultures and buildings. Wat Phra Kaew, a
+         Buddhist temple is one of the most notable places in the city. Many cultural festivals attract many
+         visitors to the Asian city. Moreover, Bangkok is the most popular destination when it comes to medical
+         tourism.
+      </p>
+
+      <h2><center>3. Paris, France</center></h2>
+      <center><img src="./paris.png" alt="paris"></center>
+      <p>The city of love is one of the top most famous cities in the world. Accessibility to the city is easy as the country borders eight nations. Paris attracts about 16 million people in a year. It is the best destination for fashion lovers, business people, and entertainment seekers. It has some of the best cafes and five-star restaurants. The city’s weather favors many people as it is mild most of the time during the year. Another important event thing in Paris is The Tour de France bicycle race. It attracts many competitors and is the most loved bicycle-racing event. The city’s popularity may wane if more terrorist attacks aim towards it.
+      </p>
+
+      <h2><center>4. Dubai, United Arab Emirates</center></h2>
+      <center><img src="./dubx.png" alt="dubai"></center>
+      <p>UAE most populous city garnered 14 million visitors in 2015. It has become a beautiful city through its unique architecture such as having the tallest skyscraper. It hosts any sports events such as car racing. It is a luxurious and pricey vacation place where wealthy people from around the world visit. With a big attitude, the city also boasts of the largest flower garden and mall in the world. Its tourism will grow much in the coming years. Many people visit the city to buy goods for sale in their respective countries. The city has also established good international meetings where visitors come to discuss economic, political and other issues affecting countries.
+      </p>
+
+      <h2><center>5. Istanbul, Turkey</center></h2>
+      <center><img src="./istanbul-turkey.png" alt="istanbul-turkey"></center>
+      <p>With over 12.5 million visitors the past year, it is among Europe top visited cities. The city has an excellent history of Modern civilization since the time of the ancient Macedonians and Spartans. It is Europes fastest growing destination. It’s named Europeans cultural city. It boasts of many churches, bazaars, mosques, and malls. Another treasure for the city is its cuisine. Istanbul kebabs are popular. Also, the entertainment and nightlife of the city are much vibrant. One does not have to freak visiting this city any part of the year. It’s small and easily traversed. It is one of the places where you’re sure you will not get lost even at night. The hotels are cheaper than many top cities in the world. It’s one of the reasons why people love visiting the city more than once in a year.
+      </p>
+
+      <h2><center>6. New York City, United States</center></h2>
+      <center><img src="./x.png" alt="new york"></center>
+      <p>America commercial city remains the largest town in the country when it comes to traveling. With over 12.3 visitors in 2015, it stands among the most favorite cities in the world. Attractive sites The Empire State Building, The Statue of Liberty and events such as the Fashion Week. The Broadway and Times Square also remain among the fascinating places in the city. The city offers a much different culture from what many cities offer. You will probably enjoy hip-hop, Baseball, and American Football when you are there. As America largest city, it may continue being the most visited soon.
+      </p>
+
+      <h2><center> 7. Singapore City, Singapore</center></h2>
+      <center><img src="./sing.png" alt="sing"></center>
+      <p>It has nearly 12 million visitors annually. It has a reputation for being an expensive city that has high-end hotels. With legalized gambling, it has increased casino tourism. Its cuisine is seen to be its biggest draw. Its multi-ethnic orientation brings about a fusion of Chinese, Malay and Indian cuisines. With cooking styles such as culinary and hybridization, eating has become the pastime of the city. Many people come to see the culturally fused architecture in the city. For those who like sports, there are various water sports such as scuba diving and skiing, making it a good recreational center.
+      </p>
+
+      <h2><center>8. Kuala Lumpur, Malaysia</center></h2>
+      <center><img src="./p.jpg" alt="mal"></center>
+      <p>Malaysia capital attracts about 11 million visitors as per last year visits. Shopping and tourism are the primary drivers of the Asian country economy. Some of the major tourist attractions are Petronas Towers, The National Place, The Jamek Mosque and Kuala Lumpur Chinatown. Cultural festivals such as the Hindu’s Thaipusam attract many visitors who add to the numbers of travelers destined for the city. There is also much entertainment in Seoul. Another important factor for the country is the rich cuisine mixes known all over the world.
+      </p>
+
+      <h2><center>9. Seoul, South Korea</center></h2>
+      <center><img src="./seoul.png" alt="southkorea"></center>
+      <p>The city is the financial, political and cultural center of South Korea. With more than 10 million visitors in 2015, Seoul has proved to be a growing tourist attraction. The city backs to the 14th century when it became a capital. There many UNESCO World Heritage sites and historic buildings that play a huge part in influencing its visitors. There are temples, museums, palaces and Neolithic remains of past settlements. Two old residential districts are museums for cultural displaying to improve tourism. Despite the numerous numbers of institutions, Seoul is modern and not just about the past. It boasts of having some of the best modernly designed buildings. In the year 2010, they named it the World design capital. The intermingling of ultramodern buildings with packs creates a unique feeling of the cityscape.
+      </p>
+
+      <h2><center>10. Hong Kong, China</center></h2>
+      <center><img src="./c.jpg" alt="china"></center>
+      <p>The city has developed to be one of the most famous metropolises in the world. The growth that began in the 1970s has led to the city functioning as a finance and trade center. Hong Kong has a major entertainment industry. It produces many kung-fu action films that are popular around the world. The city has about 8.5 million visitors annually, making it among the most popular travel destinations. The main reasons for visits in the city are business activities and need for pleasure. Hong Kong has an achievement of having the highest number of skyscrapers than any other town in the world. It blends its architecture with both Western and Eastern influences, thus attracting visitors from both sides of the world.
+      </p>
+      <p>
+      Another important reason for Hong Kong’s popularity is the geographical features of the place. It has a deep harbor that ensures the effectiveness of its port. Mt. Kowloon, which is nearby, offers the city with a steep terrain. On the other hand, the rugged coastline gives the city breathtaking beaches. For many visitors, Hong Kong is an exciting city that welcomes everyone alike.
+      </p>
+
+  </div>
+
+  <div class="footer">
+    <li>Telephone : +356 2166677 </li>
+    <li>Email     : info@yahoo.com </li>
+    <li>Address   : Republic Street, Valletta, Malta </li>
+  </div>
+
+
 
 </body>
 </html>
